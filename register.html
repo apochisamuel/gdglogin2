@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Register Form</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <div class="login">
+                <!-- Border Animation -->
+                <div class="borders">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                
+                <!-- Page Title -->
+                <h1>Create Account</h1>
+                
+                <!-- Registration Form -->
+                <form action="#">
+                    <!-- Full Name Input -->
+                    <div class="input-wrapper">
+                        <input type="text" name="full-name" class="input-field" required="false">
+                        <label for="">Full Name</label>
+                        <span class="icon">
+                            <i class='bx bxs-user'></i>
+                        </span>
+                    </div>
+
+                    <!-- Email Input -->
+                    <div class="input-wrapper">
+                        <input type="email" name="email" class="input-field" required="false">
+                        <label for="">Email Address</label>
+                        <span class="icon">
+                            <i class='bx bxs-envelope'></i>
+                        </span>
+                    </div>
+
+                    <!-- Password Input -->
+                    <div class="input-wrapper">
+                        <input type="password" name="password" class="input-field" required="false">
+                        <label for="">Password</label>
+                        <span class="icon">
+                            <i class='bx bxs-lock-alt'></i>
+                        </span>
+                    </div>
+
+                    <!-- Confirm Password Input -->
+                    <div class="input-wrapper">
+                        <input type="password" name="confirm-password" class="input-field" required="false">
+                        <label for="">Confirm Password</label>
+                        <span class="icon">
+                            <i class='bx bxs-lock'></i>
+                        </span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <a href="index.html" class="btn-submit">Register</a>
+                </form>
+                
+                <!-- Login Link -->
+                <div class="signup-link">
+                    Already have an account? <a href="index.html">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
